@@ -22,7 +22,7 @@ const Navbar = () => {
                 className={buttonVariants({
                   variant: 'ghost',
                   size: 'sm',
-                  className: 'text-gray-200 hover:text-white cursor-pointer'
+                  className: 'text-gray-200 hover:text-black cursor-pointer'
                 })}>
                 Pricing
               </Link>
@@ -31,7 +31,7 @@ const Navbar = () => {
                   className={buttonVariants({
                     variant: 'ghost',
                     size: 'sm',
-                    className: 'text-gray-200 hover:text-white cursor-pointer'
+                    className: 'text-gray-200 hover:text-black cursor-pointer'
                   })}
                   type="button"
                 >
@@ -42,7 +42,7 @@ const Navbar = () => {
                 <button
                   className={buttonVariants({
                     size: 'sm',
-                    className: 'text-gray-950 bg-white hover:bg-gray-200 cursor-pointer'
+                    className: 'text-gray-950 hover:bg-white hover:text-black cursor-pointer'
                   })}
                   type="button"
                 >
